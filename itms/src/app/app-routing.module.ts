@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
 import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
+import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
+import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
 import { ContactsComponent } from './shared/contacts/contacts.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
       {path:'product', component:ProductListComponent},
       {path:'circle', component:CircleListComponent},
       {path:'Add-Update', component:CircleFormComponent},
+      {path:'company', component:CompanyListComponent},
+      {path:'Add-Update-Company', component:CompanyFormComponent},
     ]
 },
   {path:'login', component:LoginComponent},

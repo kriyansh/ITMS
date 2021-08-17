@@ -14,13 +14,9 @@ import { ProductListComponent } from './master/product/components/product-list/p
 import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
-<<<<<<< HEAD
-import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
-import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
-
-=======
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
->>>>>>> 16e73ef4ea6596b736a532df49e9f4cdc82567be
+import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
+import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,13 +30,10 @@ import { CircleFormComponent } from './master/circle/components/circle-form/circ
     ProductListComponent,
     ZoneListComponent,
     ZoneFormComponent,
-<<<<<<< HEAD
-    CompanyListComponent,
-    CompanyFormComponent
-=======
     CircleListComponent,
-    CircleFormComponent
->>>>>>> 16e73ef4ea6596b736a532df49e9f4cdc82567be
+    CircleFormComponent,
+    CompanyFormComponent,
+    CompanyListComponent,
   ],
   imports: [
     BrowserModule,
