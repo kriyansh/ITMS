@@ -17,6 +17,8 @@ import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
 import { RoleListComponent } from './master/role/components/role-list/role-list.component';
 import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
+import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
+import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,9 @@ import { RoleFormComponent } from './master/role/components/role-form/role-form.
     CircleListComponent,
     CircleFormComponent,
     RoleListComponent,
-    RoleFormComponent
+    RoleFormComponent,
+    CompanyFormComponent,
+    CompanyListComponent,
   ],
   imports: [
     BrowserModule,
