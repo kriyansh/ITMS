@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
+import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
@@ -14,7 +16,9 @@ const routes: Routes = [
       {path:'contacts', component:ContactsComponent},
       {path:'product', component:ProductListComponent},
       {path:'zone-master', component:ZoneListComponent},
-      {path:'zone-form', component:ZoneFormComponent}
+      {path:'zone-form', component:ZoneFormComponent},
+      {path:'circle', component:CircleListComponent},
+      {path:'Add-Update', component:CircleFormComponent},
     ]
 },
   {path:'login', component:LoginComponent},

@@ -11,9 +11,10 @@ import { ContactsComponent } from './shared/contacts/contacts.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
 import { ProductFormComponent } from './master/product/components/product-form/product-form.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
-
+import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +27,9 @@ import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.
     ProductFormComponent,
     ProductListComponent,
     ZoneListComponent,
-    ZoneFormComponent
+    ZoneFormComponent,
+    CircleListComponent,
+    CircleFormComponent
   ],
   imports: [
     BrowserModule,
