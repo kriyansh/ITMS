@@ -11,6 +11,7 @@ import { ContactsComponent } from './shared/contacts/contacts.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
 import { ProductFormComponent } from './master/product/components/product-form/product-form.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductListComponent } from './master/product/components/product-list/p
     ContactsComponent,
     ForgetPasswordComponent,
     ProductFormComponent,
-    ProductListComponent
+    ProductListComponent,
+    CircleListComponent
   ],
   imports: [
     BrowserModule,

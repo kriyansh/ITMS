@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
 import { ContactsComponent } from './shared/contacts/contacts.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path:'login/header', component:HeaderComponent, 
     children:[
       {path:'contacts', component:ContactsComponent},
-      {path:'product', component:ProductListComponent}
+      {path:'product', component:ProductListComponent},
+      {path:'product', component:CircleListComponent},
     ]
 },
   {path:'login', component:LoginComponent},
