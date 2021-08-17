@@ -5,6 +5,8 @@ import { CircleListComponent } from './master/circle/components/circle-list/circ
 import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
 import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
+import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ContactsComponent } from './shared/contacts/contacts.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
@@ -15,6 +17,8 @@ const routes: Routes = [
     children:[
       {path:'contacts', component:ContactsComponent},
       {path:'product', component:ProductListComponent},
+      {path:'zone-master', component:ZoneListComponent},
+      {path:'zone-form', component:ZoneFormComponent},
       {path:'circle', component:CircleListComponent},
       {path:'Add-Update', component:CircleFormComponent},
       {path:'company', component:CompanyListComponent},
