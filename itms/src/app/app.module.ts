@@ -11,7 +11,12 @@ import { ContactsComponent } from './shared/contacts/contacts.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
 import { ProductFormComponent } from './master/product/components/product-form/product-form.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+<<<<<<< HEAD
 import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
+=======
+import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
+import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
+>>>>>>> 4b3e4063d278ce065f62d283040c2daa455fdb84
 
 @NgModule({
   declarations: [
@@ -24,7 +29,12 @@ import { CircleListComponent } from './master/circle/components/circle-list/circ
     ForgetPasswordComponent,
     ProductFormComponent,
     ProductListComponent,
+<<<<<<< HEAD
     CircleListComponent
+=======
+    ZoneListComponent,
+    ZoneFormComponent
+>>>>>>> 4b3e4063d278ce065f62d283040c2daa455fdb84
   ],
   imports: [
     BrowserModule,
