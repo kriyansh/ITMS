@@ -13,6 +13,8 @@ import { ProductFormComponent } from './master/product/components/product-form/p
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
+import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
+import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.
     ProductFormComponent,
     ProductListComponent,
     ZoneListComponent,
-    ZoneFormComponent
+    ZoneFormComponent,
+    CompanyListComponent,
+    CompanyFormComponent
   ],
   imports: [
     BrowserModule,
