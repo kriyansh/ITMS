@@ -9,8 +9,8 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { LoginComponent } from './user-authentication/login/login.component';
 import { ContactsComponent } from './shared/contacts/contacts.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
-import { ProductComponent } from './master/product/product.component';
-import { ModalComponent } from './master/modal/modal.component';
+import { ProductFormComponent } from './master/product/components/product-form/product-form.component';
+import { ProductListComponent } from './master/product/components/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +21,8 @@ import { ModalComponent } from './master/modal/modal.component';
     LoginComponent,
     ContactsComponent,
     ForgetPasswordComponent,
-    ProductComponent,
-    ModalComponent
+    ProductFormComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
