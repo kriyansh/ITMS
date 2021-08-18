@@ -17,6 +17,10 @@ import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
 import { WardListComponent } from './master/ward/components/ward-list/ward-list.component';
 import { WardFormComponent } from './master/ward/components/ward-form/ward-form.component';
+import { RoleListComponent } from './master/role/components/role-list/role-list.component';
+import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
+import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
+import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +37,11 @@ import { WardFormComponent } from './master/ward/components/ward-form/ward-form.
     CircleListComponent,
     CircleFormComponent,
     WardListComponent,
-    WardFormComponent
+    WardFormComponent,
+    RoleListComponent,
+    RoleFormComponent,
+    CompanyFormComponent,
+    CompanyListComponent,
   ],
   imports: [
     BrowserModule,

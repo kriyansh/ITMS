@@ -14,7 +14,7 @@ export class CircleListComponent implements OnInit {
   }
   addUpdate(){
     console.log('working')
-    this.router.navigateByUrl('/login/header/Add-Update')
+    this.router.navigateByUrl('/login/header/add-update-circle')
   }
 
 }
