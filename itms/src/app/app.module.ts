@@ -15,6 +15,8 @@ import { CircleListComponent } from './master/circle/components/circle-list/circ
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
+import { WardListComponent } from './master/ward/components/ward-list/ward-list.component';
+import { WardFormComponent } from './master/ward/components/ward-form/ward-form.component';
 import { RoleListComponent } from './master/role/components/role-list/role-list.component';
 import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
 import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
@@ -35,6 +37,8 @@ import { CompanyListComponent } from './master/company/components/company-list/c
     ZoneFormComponent,
     CircleListComponent,
     CircleFormComponent,
+    WardListComponent,
+    WardFormComponent,
     RoleListComponent,
     RoleFormComponent,
     CompanyFormComponent,

@@ -3,6 +3,7 @@ import * as $ from "jquery";
 import  "metismenu";
 import "simplebar";
 import 'simplebar/dist/simplebar.css';
+import 'metismenu/dist/metisMenu.css';
 import PerfectScrollbar from 'perfect-scrollbar';
 
 @Component({
@@ -15,8 +16,6 @@ export class SidebarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-	  console.log("test")
-	  console.log(document.querySelector('.header-message-list'))
     new PerfectScrollbar(".header-message-list"), new PerfectScrollbar(".header-notifications-list");
     $(function() {
 		$("#menu").metisMenu()

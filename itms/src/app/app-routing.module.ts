@@ -5,6 +5,8 @@ import { CircleListComponent } from './master/circle/components/circle-list/circ
 import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
 import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+import { WardFormComponent } from './master/ward/components/ward-form/ward-form.component';
+import { WardListComponent } from './master/ward/components/ward-list/ward-list.component';
 import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
 import { RoleListComponent } from './master/role/components/role-list/role-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
@@ -26,6 +28,8 @@ const routes: Routes = [
       {path:'role', component:RoleListComponent},
       {path:'add-update-role', component:RoleFormComponent},
       {path:'Add-Update', component:CircleFormComponent},
+      {path:'ward-master', component:WardListComponent},
+      {path:'ward-form', component:WardFormComponent},
       {path:'company', component:CompanyListComponent},
       {path:'Add-Update-Company', component:CompanyFormComponent},
     ]
