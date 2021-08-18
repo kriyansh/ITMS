@@ -1,19 +1,20 @@
-import { Component, OnInit,ViewChild,AfterViewInit } from '@angular/core';
+import { Component, OnInit, ViewChild,AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-circle-list',
-  templateUrl: './circle-list.component.html',
-  styleUrls: ['./circle-list.component.css']
+  selector: 'app-role-list',
+  templateUrl: './role-list.component.html',
+  styleUrls: ['./role-list.component.css']
 })
-export class CircleListComponent implements OnInit,AfterViewInit {
+export class RoleListComponent implements OnInit,AfterViewInit {
 
   constructor(private router: Router) { }
   @ViewChild('example2') table;
   dataTable: any;
   dtOptions: any;
-  ngOnInit(): void {
+  ngOnInit(): void {    
   }
+
   ngAfterViewInit(){   
     this.dtOptions = {
       dom: 'Bfrtip',
@@ -27,9 +28,9 @@ export class CircleListComponent implements OnInit,AfterViewInit {
     this.dataTable = $(this.table.nativeElement);
     this.dataTable.DataTable(this.dtOptions);    
   }
-  addUpdate(){
-    console.log('working')
-    this.router.navigateByUrl('/login/header/add-update-circle')
+
+  addUpdate(){    
+    this.router.navigateByUrl('/login/header/add-update-role')
   }
 
 }
