@@ -21,9 +21,10 @@ import { RoleListComponent } from './master/role/components/role-list/role-list.
 import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
 import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
 import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
+
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent,    
     HeaderComponent,
     FooterComponent,
     SidebarComponent,
