@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
 import { CircleListComponent } from './master/circle/components/circle-list/circle-list.component';
 import { ProductListComponent } from './master/product/components/product-list/product-list.component';
+import { WardFormComponent } from './master/ward/components/ward-form/ward-form.component';
+import { WardListComponent } from './master/ward/components/ward-list/ward-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ContactsComponent } from './shared/contacts/contacts.component';
@@ -19,6 +21,8 @@ const routes: Routes = [
       {path:'zone-form', component:ZoneFormComponent},
       {path:'circle', component:CircleListComponent},
       {path:'Add-Update', component:CircleFormComponent},
+      {path:'ward-master', component:WardListComponent},
+      {path:'ward-form', component:WardFormComponent}
     ]
 },
   {path:'login', component:LoginComponent},

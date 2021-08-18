@@ -15,6 +15,8 @@ import { CircleListComponent } from './master/circle/components/circle-list/circ
 import { ZoneListComponent } from './master/zone/components/zone-list/zone-list.component';
 import { ZoneFormComponent } from './master/zone/components/zone-form/zone-form.component';
 import { CircleFormComponent } from './master/circle/components/circle-form/circle-form.component';
+import { WardListComponent } from './master/ward/components/ward-list/ward-list.component';
+import { WardFormComponent } from './master/ward/components/ward-form/ward-form.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,9 @@ import { CircleFormComponent } from './master/circle/components/circle-form/circ
     ZoneListComponent,
     ZoneFormComponent,
     CircleListComponent,
-    CircleFormComponent
+    CircleFormComponent,
+    WardListComponent,
+    WardFormComponent
   ],
   imports: [
     BrowserModule,
