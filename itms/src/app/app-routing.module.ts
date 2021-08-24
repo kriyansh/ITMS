@@ -15,7 +15,12 @@ import { ContactsComponent } from './shared/contacts/contacts.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { ForgetPasswordComponent } from './user-authentication/forget-password/forget-password.component';
 import { LoginComponent } from './user-authentication/login/login.component';
-
+import { SectorListComponent } from './master/sector/components/sector-list/sector-list.component';
+import { SectorFormComponent } from './master/sector/components/sector-form/sector-form.component';
+import { AreaListComponent } from './master/area/components/area-list/area-list.component';
+import { AreaFormComponent } from './master/area/components/area-form/area-form.component';
+import { VehicleTypeFormComponent } from './master/vehicle-type/components/vehicle-type-form/vehicle-type-form.component';
+import { VehicleTypeListComponent } from './master/vehicle-type/components/vehicle-type-list/vehicle-type-list.component';
 const routes: Routes = [
   {path:'login/header', component:HeaderComponent, 
     children:[
@@ -32,6 +37,15 @@ const routes: Routes = [
       {path:'ward-form', component:WardFormComponent},
       {path:'company', component:CompanyListComponent},
       {path:'Add-Update-Company', component:CompanyFormComponent},
+      {path:'sector', component:SectorListComponent},
+      {path:'app-sector-form', component:SectorFormComponent},
+      {path:'area', component:AreaListComponent},
+      {path:'app-area-form', component:AreaFormComponent},
+      {path:'vehicle-type', component:VehicleTypeListComponent},
+      {path:'app-vehicle-type-form', component:VehicleTypeFormComponent},
+
+
+
     ]
 },
   {path:'login', component:LoginComponent},

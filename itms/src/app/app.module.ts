@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule, FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,11 @@ import { RoleListComponent } from './master/role/components/role-list/role-list.
 import { RoleFormComponent } from './master/role/components/role-form/role-form.component';
 import { CompanyFormComponent } from './master/company/components/company-form/company-form.component';
 import { CompanyListComponent } from './master/company/components/company-list/company-list.component';
+import { SectorFormComponent } from './master/sector/components/sector-form/sector-form.component';
+import { SectorListComponent } from './master/sector/components/sector-list/sector-list.component';
+import { VehicleTypeFormComponent } from './master/vehicle-type/components/vehicle-type-form/vehicle-type-form.component';
+import { VehicleTypeListComponent } from './master/vehicle-type/components/vehicle-type-list/vehicle-type-list.component';
+
 
 @NgModule({
   declarations: [
@@ -43,10 +49,17 @@ import { CompanyListComponent } from './master/company/components/company-list/c
     RoleFormComponent,
     CompanyFormComponent,
     CompanyListComponent,
+    SectorFormComponent,
+    SectorListComponent,
+    VehicleTypeFormComponent,
+    VehicleTypeListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
